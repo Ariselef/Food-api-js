@@ -6,6 +6,7 @@ let searchQuery = '';
 const APP_ID = 'd1140c2c';
 const APP_key = 'ad5c5d7232a0c3693dd5f8dbd16129a4';
 
+
 searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
     searchQuery = e.target.querySelector('input').value;
